@@ -19,6 +19,6 @@ outputs = {'x'; 'phi'};
 set(sys_tf,'InputName',inputs)
 set(sys_tf,'OutputName',outputs)
 
-t=0:0.01:1;
+t=0:0.01:5;
 impulse(sys_tf,t);
 title('Open-Loop Impulse Response')
